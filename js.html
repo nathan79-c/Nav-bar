@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var number =prompt("entrez n'importe entre 0 et 999");
+        var unite= number.length;
+        var conversion = parseInt(number);
+        var quotient = conversion / 10;
+        var reste= conversion % 10;
+        function unite1(){
+                 var myarray = ['zero' , 'un' , 'deux' , 'trois' , 'quatre' , 'cinq' , 'six' , 'sept', 'huit' ,'neuf'];
+                     alert(myarray[conversion]);
+             }
+        function dizaine(){
+            if(reste == 0){
+                var resultat=['zero','dix','vingt','trente','quarante','cinquante','soixante','septante','quatre-vingts','nonante'];
+                resultat[quotient];
+            }
+                return(resultat);
+
+        }
+        if (unite=1){
+                unite1();
+      }
+      else if(unite=2){
+          dizaine(); 
+      }
+      
+
+      
+     
+        
+
+                
+    </script>
+</body>
+</html>
